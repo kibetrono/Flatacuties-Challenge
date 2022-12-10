@@ -27,16 +27,16 @@ function renderAnimals(animal) {
         </div>
         <div class="card-body">
         <h5>Name: ${animal.name}</h5>
-        <h6 id="numbervotes">Number of Votes:${animal.votes}</h6>
+        <h6 id="numbervotes">Number of Votes: ${animal.votes}</h6>
         </div>
-         <div class="row pb-2 px-3">
+         <div class="row allbuttons pb-2 px-3">
          <div class="col-md-4">
         <button id="votebtn" class="btn-sm btn btn-success">Vote</button>
          </div>
          <div class="col-md-4">
         <button id="resetbtn" class="btn-sm btn btn-warning">Reset Votes</button>
          </div>
-         <div class="col-md-4 text-end">
+         <div class="col-md-4">
         <button id="deletebtn" class="btn-sm btn btn-danger">Delete Animal</button>
          </div>
         </div>
@@ -44,7 +44,7 @@ function renderAnimals(animal) {
        
     li.querySelector('#votebtn').addEventListener('click', () => {
         animal.votes+=1
-        li.querySelector("#numbervotes").textContent = `Number of Votes:${animal.votes}`
+        li.querySelector("#numbervotes").textContent = `Number of Votes: ${animal.votes}`
         makeVotes(animal)
     })
 

@@ -4,19 +4,19 @@
       "id": 1,
       "name": "Mr. Cute",
       "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
-      "votes": 0
+      "votes": 2
     },
     {
       "id": 2,
       "name": "Mx. Monkey",
       "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
-      "votes": 0
+      "votes": 3
     },
     {
       "id": 3,
       "name": "Ms. Zebra",
       "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif",
-      "votes": 0
+      "votes": 3
     },
     {
       "id": 4,
@@ -29,6 +29,12 @@
       "name": "Mme. Panda",
       "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
       "votes": 0
+    },
+    {
+      "name": "Rat",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLqWo8heNNIL9d1r6S1BS7bewtN86UQe1YsAE-zuHv&s",
+      "votes": 0,
+      "id": 6
     }
   ]
 }
